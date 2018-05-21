@@ -14,7 +14,7 @@
     },
     "SERVER_URL": {
       "description": "Parse Server URL.",
-      "value": "https://pushnotif.scalingo.io/parse"
+      "value": "https://pushnotif.scalingo.io"
     },
     "APP_NAME": {
       "description": "Optional App Name",
