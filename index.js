@@ -18,6 +18,12 @@ var dashboard = new ParseDashboard({
       appName: process.env.APP_NAME || 'MyApp',
     },
   ],
+  users: [
+    {
+      user: 'usuario',
+      pass: '12345'
+    }
+    ]
 });
 
 var app = express();
