@@ -5,7 +5,7 @@ var ParseDashboard = require('parse-dashboard');
 var path = require('path');
 
 var dashboard = new ParseDashboard({
-  let localParseServer = 'https://pushnotif.scalingo.io/parse';
+  //let localParseServer = 'https://pushnotif.scalingo.io';
 
   // Heroku requires HTTPS. Please read the README file for details.
   // let herokuParseServer = 'https://my-parse-dashboard.herokuapp.com/parse'
@@ -14,7 +14,7 @@ var dashboard = new ParseDashboard({
     {
       appId: process.env.APP_ID || 'A1P2P3I4D5',
       masterKey: process.env.MASTER_KEY || 'M1A2S3T4E5R6K7E8Y9',
-      serverURL: process.env.SERVER_URL || herokuParseServer || localParseServer,
+      serverURL: process.env.SERVER_URL || 'https://pushnotif.scalingo.io',
       appName: process.env.APP_NAME || 'MyApp',
     },
   ],
