@@ -3,7 +3,7 @@ vm: true
 
 env_variables:
   # --REQUIRED--
-  APP_ID: <your-app-id>
-  MASTER_KEY: <your-master-key>
+  APP_ID: A1P2P3I4D5
+  MASTER_KEY: M1A2S3T4E5R6K7E8Y9
   # --OPTIONAL--
   # APP_NAME: <your-app-name>
