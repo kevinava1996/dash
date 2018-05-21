@@ -16,6 +16,7 @@ var dashboard = new ParseDashboard({
       masterKey: process.env.MASTER_KEY || 'M1A2S3T4E5R6K7E8Y9',
       serverURL: process.env.SERVER_URL || 'https://pushnotif.scalingo.io',
       appName: process.env.APP_NAME || 'APPPARSE',
+      "supportedPushLocales": ["en", "ru", "fr"],
     },
   ],
   users: [
